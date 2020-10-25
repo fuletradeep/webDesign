@@ -1,0 +1,235 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: black;
+}
+
+section {
+    background: white;
+    overflow: hidden;
+}
+
+.content-box-lg {
+    padding: 150px 0;
+}
+
+.content-box-md {
+    padding: 70px 0;
+}
+
+.btn-general {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 12px 48px 12px 48px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-nav {
+    background-color: blue;
+    padding: 14px 32px;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    margin-top: 8px;
+    float: right;
+}
+
+.btn-home-1 {
+    background-color: #f4f4f4;
+    padding: 6px 25px;
+    font-size: 12px;
+    color: black;
+}
+
+.btn-home-2 {
+    background-color: blue;
+    padding: 14px 32px;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.header {
+    height: 80px;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.header h3 {
+    position: absolute;
+    max-height: 80px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.header h3 span {
+    color: #feaa25;
+}
+
+.header a {
+    display: inline-block;
+}
+
+#home {
+    margin-top: -100px;
+    overflow: visible;
+    z-index: 111;
+}
+
+#home h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;
+    margin-bottom: 15px;
+    color: #242f51;
+}
+
+#home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #616368;
+    line-height: 28px;
+}
+
+#home h3 {
+    margin-top: 27px;
+    font-size: 16px;
+    margin-left: 35px;
+    word-spacing: 1px;
+    font-weight: 600;
+    color: #2500f9;
+}
+
+.home-img img {
+    height: 700px;
+    z-index: 222;
+}
+
+.home-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-img {
+    margin-left: 100px;
+}
+
+.home-info {
+    padding: 130px 0px;
+}
+
+#back {
+    overflow: visible;
+    z-index: 1;
+}
+
+#back img {
+    top: -250px;
+    position: absolute;
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+#client h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+ul {
+    text-align: center;
+    padding-left: 80px;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.top-jackpot {
+    padding-left: 100px;
+}
+
+#jackpot .top-jackpot h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #242f51;
+}
+
+.bottom-jackpot-main {
+    padding-left: 100px;
+    margin-top: 80px;
+}
+
+.bottom-jackpot-main .bottom-jackpot img {
+    text-align: left;
+    width: 80px;
+}
+
+.bottom-jackpot-main .bottom-jackpot h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bottom-jackpot-main .bottom-jackpot h4 span-1 {
+    color: #F55767;
+}
+
+.bottom-jackpot-main .bottom-jackpot h4 span-2 {
+    color: #2563FF;
+}
+
+.bottom-jackpot-main .bottom-jackpot h4 span-3 {
+    color: #459A63;
+}
+
+.bottom-jackpot-main .bottom-jackpot p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #09143e;
+}
+
+.footer p {
+    color: #616368;
+    padding: 20px;
+    text-align: center;
+}
